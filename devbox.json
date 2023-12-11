@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "temurin-bin-17@latest",
+    "maven3@3.8.6",
+    "jetbrains.idea-community@latest",
+    "docker@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
